@@ -6,6 +6,16 @@ import java.util.TreeSet;
 
 public class A {
 
+    private String str;
+
+    public String getStr() {
+        return str;
+    }
+
+    public void setStr(String str) {
+        this.str = str;
+    }
+
     public static void main(String[] args) {
         HashSet<Integer> ss = new HashSet<>();
         ss.add(66);
