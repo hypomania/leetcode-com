@@ -27,7 +27,6 @@ public class L62 {
             }
         }
 
-        int result = 1;
         if (m == 1) {
             result = uniquePaths(m, n-1);
         } else if (n == 1) {
